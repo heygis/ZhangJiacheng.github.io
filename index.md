@@ -1,47 +1,604 @@
-![图片描述](图片链接)
-![证件照](/zhengjianzhao.jpg)
 
-<table border="0">
-  <tr>
-    <td width="75%">
-      <h1>张三</h1>
-      <p><b>硕士研究生</b></p>
-      <p><b>××大学××学院</b></p>
-      <p><b>邮箱：1234567789@qq.com</b></p>
-      <p><b>地址：××市××区××路××号××大学，××楼，邮编×××</b></p>
-    </td>
-    <td width="25%">
-      <img src="/zhengjianzhao.jpg" width="100%">      % 插入证件照代码
-    </td>
-  </tr>
-</table>
+<!DOCTYPE HTML>
+<html>
 
-### 个人信息
-#### 姓名xxx
-#### 学历xxx
-#### 学校xxx
-#### 邮箱：xxx 
-#### 地址：xxx
+<head>
+	<title>About Kaiyuan Liu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="msvalidate.01" content="C2C87B7B33970E7CB6D437CD5E4BEDB5" />
 
-### 最新消息
-1.消息1xxx
+	<meta property="og:site_name" content="Home Page of Kaiyuan Liu">
+	<meta property="og:url" content="https://lkytal.github.io/">
+	<meta property="og:title" content="Home Page of Kaiyuan Liu">
+	<meta property="og:description" content="Home Page of Kaiyuan Liu">
+	<meta property="og:locale" content="en-us">
 
-### 研究方向
--文本挖掘
--知识图谱
+	<!--link rel="stylesheet" href="assets/css/bootstrap.css" /-->
+	<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fauna+One" media="none" onload="this.media='all'">
 
-###荣誉奖励
--奖学金
--荣誉称号-比赛获奖
+	<!--[if lt IE 9]>
+		<script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="assets/css/ie8.css" />
+	<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="assets/css/ie7.css">
+	<![endif]-->
+</head>
 
-### 项目研究
-#### 公司/学校/研究所（2013.9～2017.6）
--**顶目1**
-项目描述
--**而目2**
-项目描述
-#### 公司/学校/研究所（2017.9。至今）
--**项目1**
-项目描述
--**项目2**
-项目描述
+<body>
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar">
+				<img src="images/avatar.jpg" alt="" />
+			</span>
+			<h1 id="logo">
+				<a href="#">Kaiyuan Liu</a>
+			</h1>
+			<p>Art is a lie that makes us realize the truth</p>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li>
+					<a href="#one" class="active">About</a>
+				</li>
+				<li>
+					<a href="#two">Brief Introduction</a>
+				</li>
+				<li>
+					<a href="#research">Research Projects</a>
+				</li>
+				<li>
+					<a href="#three">Works and Accomplishments</a>
+				</li>
+				<li>
+					<a href="#four">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li>
+					<a href="mailto:lkytal@live.cn" class="icon fa-envelope">
+						<span class="label">Email</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/lkytal" target="_blank" class="icon fa-github">
+						<span class="label">Github</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/kaiyuan-liu-120505146/" target="_blank" class="icon fa-linkedin">
+						<span class="label">Microsoft</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<div class="container">
+					<header class="major">
+						<h2>About Me</h2>
+					</header>
+					<p>
+						I'm
+						<i>Kaiyuan Liu</i>, I earned my bachelor degree from the University of Science and Technology of China,
+						now I'm studying computer science at
+						<b>Indiana University at Bloomington</b>. My area of interest are bioinformatics and machine learning.
+					</p>
+					<h4>Education</h4>
+					<ul>
+						<li>
+							<p>
+								<h5>Undergraduate, 2011.9 - 2015.7</h5>
+								<i>Bachelor Degree of Nature Science.</i>
+								<br> University of Science and Technology of China (USTC).
+								<br/> Department of Chemistry and Material Science.
+							</p>
+						</li>
+						<li>
+							<p>
+								<h5>Ph.D., 2017.8 - Now</h5>
+								Indiana University at Bloomington.
+								<br/> School of Informatics and Computer Science.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Two -->
+			<section id="two">
+				<div class="container">
+					<h3 class="greenTxt">Brief Introductions</h3>
+					<p>
+						I first met computer programming since I was a high school student, and it attracted me to explore further. From Windows
+						to Linux, website development to desktop applications, I've tried and experienced various different projects.
+					</p>
+					<p class="greenTxt">
+						Experienced Technologies
+					</p>
+					<ul class="feature-icons">
+						<li class="fa-code">Skilled with C ,C++, C# and Nodejs</li>
+						<li class="fa-users">Basic skills of F#, Python, Java and more</li>
+						<li class="fa-git">Git, CI, Unit test and more</li>
+						<li class="fa-book">Machine learning and data mining skills</li>
+						<li class="fa-internet-explorer">HTML5 / Front-end programming</li>
+						<li class="fa-coffee">Knowledge of networking and operating system</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<!-- research -->
+			<section id="research">
+				<div class="container">
+					<h3 class="greenTxt">Research Projects</h3>
+
+					<!--Bio Div-->
+					<div class="features">
+						<h4>Bioinformatics</h4>
+						<article>
+							<a href="#" class="image">
+								<img src="images/chart.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">PredFull</h4>
+								<p class="greenTxt">
+									The first complete spectra prediction tool.
+								</p>
+								<p>
+									<ul>
+										<li>Complete prediction for all peaks.</li>
+										<li>Support multiple charges and both HCD, ETD.</li>
+									</ul>
+								</p>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/PredFull">
+									PredFull on Github
+								</a>
+							</div>
+						</article>
+					</div>
+
+				</div>
+			</section>
+
+			<!-- Three -->
+			<section id="three">
+				<div class="container">
+					<h3 class="greenTxt">Works and Accomplishments</h3>
+					<p>
+						Extensions for Firefox, Visual studio and VSCode.
+					</p>
+
+					<!--VS Div-->
+					<div class="features">
+						<h4>Visual Studio Extensions</h4>
+						<article>
+							<a href="#" class="image">
+								<img src="images/mouse.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Smooth Scroll</h4>
+								<p class="greenTxt">
+									Over 39,000+ downloads. Received multiple 5-star rates.
+								</p>
+								<p>
+									Make text editor view scroll smoothly.
+									<h5>Additional features:</h5>
+									<ul>
+										<li>Hold shift key to Scroll horizontally.</li>
+										<li>Hold Alt key to scroll text view by one page up/down.</li>
+									</ul>
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.SmoothScroll">
+									Smooth scroll on Visual Studio market
+								</a>
+								<br />
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/SmoothScroll">
+									Smooth scroll on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/cmd.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Built-in Cmd</h4>
+								<p class="greenTxt">
+									Over 15,000+ downloads, 5-star ranked.
+								</p>
+								<p>
+									Integrate windows command prompt into visual studio 2013, 2015 and 2017.
+									Provide a built-in window to access windows command prompt handily.
+									Support arrow keys to switch between typed commands.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.BuiltinCmd">
+									Built-in Cmd on Visual Studio market
+								</a>
+								<br />
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/BuiltinCmd">
+									Built-in Cmd on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/info.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Statusbar Info</h4>
+								<p class="greenTxt">
+									Over 4,000+ downloads, 5-star ranked.
+								</p>
+								<p>
+									Display CPU usage and the memory usage of the current instance of Visual Studio in the status bar. Support Custom patterns.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.StatusInfo">
+									Statusbar Info on Visual Studio market
+								</a>
+								<br />
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/StatusInfo">
+									Statusbar Info on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/zoom.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">AutoZoom</h4>
+								<p>
+									AutoZoom for visual studio 2013, 2015 and 2017.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.AutoZoom">
+									AutoZoom on Visual Studio market
+								</a>
+								<br />
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/AutoZoom">
+									AutoZoom on Github
+								</a>
+							</div>
+						</article>
+					</div>
+
+					<!--VSCode div-->
+					<div class="features">
+						<h4>VSCode Extensions</h4>
+						<article>
+							<a href="#" class="image">
+								<img src="images/qt.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Quick Task</h4>
+								<p>
+									Quick Task will automatically trawl your project directory for task scripts, e.g. npm, gulp, shell, bat, python, ruby, powershell,
+									perl scripts etc... and allow you to execute each task with the click of a mouse.
+								</p>
+								<p class="greenTxt">
+									Over 42,000+ downloads.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.quicktask">
+									Quick Task on Visual Studio market
+								</a>
+								<br>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/quickTask">
+									Quick Task on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/code-flat.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">FlatUI Theme</h4>
+								<p>
+									A light theme for VSCode.
+								</p>
+								<p class="greenTxt">
+									Over 211,000+ downloads. Top 30 ranked theme.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.FlatUI">
+									FlatUI Theme on Visual Studio market
+								</a>
+								<br>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/vscode-theme-flatui">
+									FlatUI Theme on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/coffee.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Coffee Lint</h4>
+								<p>
+									Coffee Lint for VSCode.
+								</p>
+								<p class="greenTxt">
+									Over 17,000+ downloads.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.coffeelinter">
+									Coffee Lint on Visual Studio market
+								</a>
+								<br>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/coffeelint">
+									Coffee Lint on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/pomodoro.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Pomodoro Timer</h4>
+								<p>
+									A pomodoro timer for VSCode.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.pomodoro">
+									Pomodoro Timer on Visual Studio market
+								</a>
+								<br>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/quickTask">
+									Pomodoro Timer on Github
+								</a>
+							</div>
+						</article>
+
+						<article>
+							<a href="#" class="image">
+								<img src="images/translate.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Translator Plus</h4>
+								<p>
+									Translate your selection using google translater, the result will show up in statusbar.
+								</p>
+								<i class="fa fa-windows space"></i>
+								<a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=lkytal.translatorplus">
+									Translator Plus on Visual Studio market
+								</a>
+								<br>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/translatorplus">
+									Translator Plus on Github
+								</a>
+							</div>
+						</article>
+					</div>
+
+					<!--Firefox div-->
+					<div class="features">
+						<h4>Firefox Extensions</h4>
+						<p>
+							Visit <a href="https://github.com/lkytal/GM">https://github.com/lkytal/GM</a> for more information.
+						</p>
+						<article>
+							<a href="#" class="image">
+								<img src="images/search.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Popup Search</h4>
+								<p>
+									Popup search / translate (etc) button for selected texts.
+								</p>
+								<p class="greenTxt">
+									Over 50,000+ downloads in total.
+								</p>
+								<i class="fa fa-git space"></i>
+								<a target="_blank" href="https://git.oschina.net/coldfire/GM/raw/master/popsearch.user.js">
+									Popup Search Install Link
+								</a>
+								<br />
+								<i class="fa fa-firefox space"></i>
+								<a href="https://greasyfork.org/en/scripts/340-popup-search">
+									Popup Search on Greasy Fork
+								</a>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image">
+								<img src="images/link.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Text to link</h4>
+								<p>
+									Turn plain text URLs into clickable links.
+								</p>
+								<i class="fa fa-git space"></i>
+								<a href="https://git.oschina.net/coldfire/GM/raw/master/linkMix.user.js">
+									Text to link Install Link
+								</a>
+								<br />
+								<i class="fa fa-firefox space"></i>
+								<a href="https://greasyfork.org/en/scripts/342-text-to-link">
+									Text to link on Greasy Fork
+								</a>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image">
+								<img src="images/tieba.png" alt="" />
+							</a>
+							<div class="inner">
+								<h4 class="greenTxt">Tieba Enhance</h4>
+								<p>
+									Tieba Enhance is a script written for baidu tieba.
+								</p>
+								<i class="fa fa-git space"></i>
+								<a target="_blank" href="https://git.oschina.net/coldfire/GM/raw/master/tieba_enhance.user.js">
+									Tieba Enhance Install Link
+								</a>
+								<br />
+								<i class="fa fa-firefox space"></i>
+								<a href="https://greasyfork.org/en/scripts/345-tieba-enhance">
+									Tieba Enhance on Greasy Fork
+								</a>
+							</div>
+						</article>
+					</div>
+
+					<!--Project div-->
+					<!-- <div class="features">
+						<h4>Personal Projects</h4>
+						<article>
+							<a href="#" class="image"><img src="images/code.png" alt="" /></a>
+							<div class="inner">
+								<h4 class="greenTxt">NetBot</h4>
+								<p>
+									A re-developed remote control, works on windows xp to windows 10.
+								</p>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/NetBot">
+									NetBot on Github
+								</a>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/code.png" alt="" /></a>
+							<div class="inner">
+								<h4 class="greenTxt">LxDoor</h4>
+								<p>
+									A command-line remote control, works with windows xp to windows 10.
+								</p>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/LxDoor">
+									LxDoor on Github
+								</a>
+							</div>
+						</article>
+						<article>
+							<a href="#" class="image"><img src="images/code.png" alt="" /></a>
+							<div class="inner">
+								<h4 class="greenTxt">LxRootkit</h4>
+								<p>
+									A Rootkit works under windows xp and windows 2003.
+								</p>
+								<i class="fa fa-github space"></i>
+								<a target="_blank" href="https://github.com/lkytal/LxRootkit">
+									LxRootkit on Github
+								</a>
+							</div>
+						</article>
+					</div> -->
+
+				</div>
+			</section>
+
+			<!-- Four -->
+			<section id="four">
+				<div class="container">
+					<h3 class="greenTxt">Links and Contact Information</h3>
+					<p>
+						<p class="tab">
+							<i class="fa fa-envelope tab-30"> Email</i>
+							<a class="tab-text" href="mailto:lkytal@live.cn">lkytal@live.cn</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-github tab-30"> Github</i>
+							<a class="tab-text" href="https://github.com/lkytal">https://github.com/lkytal</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-linkedin tab-30"> Linkedin</i>
+							<a class="tab-text" href="https://www.linkedin.com/in/kaiyuan-liu-120505146/">https://www.linkedin.com/in/kaiyuan-liu-120505146/</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-windows tab-30"> VSCode</i>
+							<a class="tab-text" href="https://marketplace.visualstudio.com/search?term=publisher%3A%22Lky%20Tal%22&target=VSCode&sortBy=Relevance">https://marketplace.visualstudio.com/</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-firefox tab-30"> Greasy fork</i>
+							<a class="tab-text" href="https://greasyfork.org/en/users/152-lkytal">https://greasyfork.org/en/users/152-lkytal</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-git tab-30"> Git OsChina</i>
+							<a class="tab-text" href="https://git.oschina.net/coldfire/GM">https://git.oschina.net/coldfire/GM</a>
+						</p>
+					</p>
+					<h3 class="greenTxt">Donation</h3>
+					<p>
+						<p class="tab">
+							<i class="fa fa-paypal tab-30"> Paypal</i>
+							<a class="tab-text" href="https://www.paypal.me/lkyfire">https://www.paypal.me/lkytal</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-money tab-30"> Zhifubao</i>
+							<a class="tab-text" href="/images/zfb.png">Click to show</a>
+						</p>
+						<p class="tab">
+							<i class="fa fa-wechat tab-30" aria-hidden="true"> WeChat</i>
+							<a class="tab-text" href="/images/wx.png">Click to show</a>
+						</p>
+					</p>
+				</div>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; All rights reserved. 2014 - 2019</li>
+					<li>Kaiyuan Liu</li>
+				</ul>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script defer src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script defer src="assets/js/jquery.scrollzer.min.js"></script>
+	<script defer src="assets/js/jquery.scrolly.min.js"></script>
+	<script defer src="//cdn.bootcss.com/skel/3.0.1/skel.min.js"></script>
+	<script defer src="assets/js/util.js"></script>
+	<script defer src="assets/js/main.js"></script>
+
+	<script async src="//hm.baidu.com/hm.js?86288502546a2fa398e94d0a198c2392"></script>
+</body>
+
+</html>
